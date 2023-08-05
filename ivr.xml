@@ -1,0 +1,8 @@
+<Response>
+  <Say>Welcome to IVR with Twilio .</Say>
+  <Gather input="dtmf" timeout="10" numDigits="1">
+    <Say>Press 1 for stock.</Say>
+    <Say>Press 2 for buy.</Say>
+  </Gather>
+  <Say>Sorry, I didn't get your response. Goodbye!</Say>
+</Response>
